@@ -30,15 +30,28 @@ nav ul li{
     list-style: none;
 }
 
+.cls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .header{
-    width: 852px;
+    width: 2000px; 
     height: 626px;
-    margin: 0 auto;
+    /* margin:  auto; */
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+    margin-top: 70px;
+
+}
+
+.full-banner{
+display: flex;
+justify-content: center;
 
 }
 .html{
@@ -60,6 +73,10 @@ nav ul li{
 .section-description{
     font-size: 16px;
     color: #0D1321
+}
+
+.box{
+    display: flex;
 }
 
 /* about styles */
@@ -116,11 +133,24 @@ main{
 
 }
 .last{
-    width: 1140px;
+   width: 1140px;
     height: 313px;
     margin: 0 auto;
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
-    background-position: center;
+    background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover;
+     background-size: 1140px; 
+     
 }
+
+.handshake{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
